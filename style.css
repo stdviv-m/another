@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: hsl(340, 92%, 52%);
+    box-shadow: 0  0 10px;
+    margin: 20px 10px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 650px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.navbar ul li a:hover{
+    background: #040101;
+    color:#ffffff;
+}
+img{
+    width: 30%;
+    border-radius: 80px;
+
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    background-color: bisque;
+    /* background-image:url(images/WhatsApp\ Image\ 2024-03-02\ at\ 01.03.59_0cb19da6.jpg) ; */
+}
+.intro{
+    display: grid;
+    margin: auto;
+   
+}
+p{
+    align-items: center;
+    text-align: center;
+    
+}
+ h2{
+    text-align: center;
+    
+}
+.vision{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+    margin: auto;
+    
+}
+.mission, vision{
+    display: grid;
+    align-content: center;
+    margin: auto;
+
+}
+.values{
+    display: grid;
+    margin: auto;
+   
+
+}
+.values li{
+    text-align: center;
+    list-style-type: none;
+    
+    
+}
+
+
